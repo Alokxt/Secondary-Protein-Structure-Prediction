@@ -33,17 +33,16 @@ I included **model comparison charts** in this repository showing the performanc
 
 ## Project Structure
 src/
-  ->data // contains all preprocessing and data loaders objects.
-  ->models //contains all the model architectures.
-      >preatraied // contains the prot_bert loading and classifier head of transfer learning.
-      ->Scratch // contains model architectures of Bi-RNN , Bi-LSTM , Bi-GRU. 
-      ->transformer // contains transformer architecture.
-      ->training1 // training logic of "from scratch" models .
-      ->training2 // training logic of pretrained model.
-      ->validation // validation logic .
-  ->plots // contains plotting logic and all plots .
-  ->saved models // contain model checkpoints and saved weights.
-  
+├─ data/ # Preprocessing scripts and data loader objects
+├─ models/ # Model architectures
+│ ├─ pretrained/ # ProtBERT loading and classifier head for transfer learning
+│ ├─ Scratch/ # Bi-RNN, Bi-LSTM, Bi-GRU architectures
+│ └─ transformer/ # Transformer architecture
+├─ training1/ # Training logic for "from scratch" models
+├─ training2/ # Training logic for pretrained models
+├─ validation/ # Validation scripts and metrics
+├─ plots/ # Plotting logic and all generated charts
+└─ saved_models/ # Model checkpoints and saved weights
 
 #This project is completely for learning purposes and was part of my academic coursework for the B.S. degree in Data Science at IIT Madras.
 
