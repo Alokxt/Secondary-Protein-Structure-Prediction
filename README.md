@@ -1,6 +1,6 @@
 # Secondary Protein Structure Prediction
 
-I worked on predicting the **secondary structure of proteins** from variable-length amino acid sequences. I wrote a detailed report on the project, which you can read on Medium: [Medium Article Link](your-medium-link).
+I worked on predicting the **secondary structure of proteins** from variable-length amino acid sequences. I wrote a detailed report on the project, which you can read on Medium: [Medium Article Link](https://medium.com/@manawatalok/secondary-protein-structure-prediction-067fb76c4785).
 
 The **inference API** for this project is fully containerized and available as a Docker image: [Docker Image Link](https://hub.docker.com/repository/docker/alokm7/protein2-api/general).  
 The **project** is live and can be accessed here: [Click Here](https://secondary-protein-structure-prediction.onrender.com).
